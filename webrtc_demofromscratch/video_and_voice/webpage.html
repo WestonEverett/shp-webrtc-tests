@@ -8,9 +8,16 @@
 </head>
 
 <body>
+  <div id="localContainer">
+    <video id="localVideo" autoplay playsinline></video>
+    <video id="localShare" autoplay playsinline muted></video>
+    <button id="startButton" disabled>Start</button>
+  </div>
 
-  <video id="localVideo" autoplay playsinline></video>
-
+  <div id="remoteContainer">
+    <video id="remoteVideo" autoplay playsinline></video>
+    <video id="remoteShare" autoplay playsinline muted></video>
+  </div>
   <script src="js/main.js"></script>
 
 </body>
